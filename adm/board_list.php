@@ -1,8 +1,7 @@
 <?php
 $sub_menu = "300100";
 include_once('./_common.php');
-123123
-555555
+'';
 auth_check($auth[$sub_menu], 'r');
 
 $sql_common = " from {$g5['board_table']} a ";
